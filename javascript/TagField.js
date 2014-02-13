@@ -1,6 +1,6 @@
 (function($) {
 	SSTagFieldLoader = function() {
-		var tags = $(this).attr('tags');
+		var tags = $(this).data('tags');
 		if(tags) {
 			$(this).tagSuggest({
 				tags:  tags,
